@@ -1,0 +1,39 @@
+{
+    "widget":{
+            "name": "name",
+            "description": "description",
+            "short_description": "short_description",
+            "code": "letsgo",
+            "secret_key": "db78f90c9b662303b451a15bb98ac37febcbccfd9a3ab6dfc183169301e3dbee",
+            "version": "1.0.0",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[
+                    "ru",
+                    "en"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "lcard-1",
+            "llist-0",
+            "settings"
+            ],
+    "settings":{
+                "login":{
+                        "name": "settings.login",
+                        "type": "text",
+                        "required": true
+                        },
+                "api_key":{
+                        "name": "settings.api_key",
+                        "type": "text",
+                        "required": true
+                        },
+                "account":{
+                        "name": "settings.account",
+                        "type": "text",
+                        "required": true
+                        }
+            }
+}
